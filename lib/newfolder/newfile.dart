@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
 
-class NewFile extends StatefulWidget {
-  const NewFile({super.key});
+class NewFiles extends StatefulWidget {
+  const NewFiles({super.key});
 
   @override
-  State<NewFile> createState() => _NewFileState();
+  State<NewFiles> createState() => _NewFilesState();
 }
 
-class _NewFileState extends State<NewFile> {
+class _NewFilesState extends State<NewFiles> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-    );
+    return const Placeholder();
   }
 }
